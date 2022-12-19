@@ -1,4 +1,4 @@
-package programmers.lv0;
+package programmers.lv1.ReportResult;
 
 import java.util.ArrayList;
 import java.util.Arrays;
