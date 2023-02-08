@@ -1,9 +1,13 @@
-import programmers.lv2.DeliveryAndCollection.DeliveryAndCollection;
+import backjun.absoluteHeap_11286.AbsoluteHeap;
+import backjun.cardGame_2164.CardGame;
+import backjun.rightLargeNumber_17298.RightLargeNumber;
+import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
-
-        DeliveryAndCollection.solution(2, 7, new int[]{1, 0, 2, 0, 1, 0, 2}, new int[]{0, 2, 0, 1, 0, 2, 0});
-//        System.out.println(objects);
+    public static void main(String[] args) throws IOException {
+        long start = System.currentTimeMillis();
+        AbsoluteHeap.solution();
+        long end = System.currentTimeMillis();
+        System.out.println("time:" + (end-start) +"ms");
     }
 }
